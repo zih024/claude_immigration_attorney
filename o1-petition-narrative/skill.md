@@ -36,6 +36,8 @@ You will walk through 5 phases:
 
 This skill consumes the output of the **document-summary-arrangement** skill. If no document index exists, ask the user to run that skill first.
 
+**Optional upstream:** **case-strength-assessor** (criterion priority); **publication-citation-table** (use TSV + lead works for C5 — do not treat `NEEDS VERIFICATION` as citable until resolved).
+
 ---
 
 ## Phase 1: Case Setup

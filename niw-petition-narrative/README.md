@@ -43,7 +43,7 @@ Single file: `niw_petition_package.md` with support letter, source registry, web
 
 ## Prerequisites
 
-Run **document-summary-arrangement** first if documents haven't been indexed.
+Run **document-summary-arrangement** first if documents haven't been indexed. **Optional:** `case-strength-assessor`, `publication-citation-table` (researchers).
 
 ## Usage
 

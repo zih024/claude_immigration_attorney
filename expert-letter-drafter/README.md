@@ -42,6 +42,8 @@ Single file: `expert_letters.md` with strategy matrix, coverage check, all lette
 
 ## Workflow
 
+*Optional: case-strength-assessor / publication-citation-table before this step.*
+
 ```
 document index + petition package
        ↓

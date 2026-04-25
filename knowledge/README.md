@@ -1,6 +1,6 @@
 # Immigration Petition Knowledge Base
 
-Best practices for O-1A, EB-1A, and EB-2 NIW petitions. Skills read these files before drafting.
+Best practices for O-1A, EB-1A, and EB-2 NIW petitions. Main narrative/audit skills read these before work. **Optional** `case-strength-assessor` and `publication-citation-table` also pull from `criteria/`, `prongs/`, and `evidence-hierarchy.md` as described in their skill files.
 
 ```
 knowledge/

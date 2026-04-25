@@ -563,7 +563,11 @@ If the user adds new documents after the initial index is built:
 
 ## Working With Other Skills
 
-This skill produces the document foundation that other legal skills consume:
+This skill produces the document foundation that other legal skills consume.
+
+**Immigration (this repo):** optional **`case-strength-assessor`**, optional **`publication-citation-table`**, then **o1- / eb1a- / niw-petition-narrative**; **niw-national-importance-research**; **expert-letter-drafter**; **petition-audit** on drafted letters.
+
+**Other matter types (examples):**
 
 - **Case Chronology** skill → uses the index dates and summaries to build a case timeline
 - **Deposition Prep** skill → uses document summaries to identify exhibits and contradiction points

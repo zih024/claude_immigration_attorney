@@ -29,47 +29,51 @@ knowledge/
 ```
 
 **When to read what:**
-- Drafting O-1A/EB-1A → read `overview-o1a-eb1a.md` + all relevant `criteria/` files + `argument-patterns.md`
-- Drafting NIW → read `overview-niw.md` + all `prongs/` files + `argument-patterns.md`
-- Any petition → read `evidence-hierarchy.md` + `uscis-policy-alerts.md`
+- Optional: `case-strength-assessor` (if used) → `evidence-hierarchy.md`, overviews, relevant `criteria/` or `prongs/`, `uscis-policy-alerts.md`
+- Optional: `publication-citation-table` (if used) → `criteria/05-scholarly-articles.md`, skim `03-published-material`, `evidence-hierarchy`, `prongs/02-well-positioned`
+- Drafting O-1A/EB-1A → `overview-o1a-eb1a.md` + relevant `criteria/` + `argument-patterns.md`
+- Drafting NIW → `overview-niw.md` + `prongs/` + `argument-patterns.md`
+- Any petition → `evidence-hierarchy.md` + `uscis-policy-alerts.md`
 
 ## Skills
 
 | Skill | What It Does | Reads Knowledge |
 |-------|-------------|-----------------|
 | `document-summary-arrangement` | Indexes source documents, triages by importance, classifies by type | — |
+| `case-strength-assessor` | **Optional.** Pre-draft criterion/prong strength from the index | `criteria/` or `prongs/`, `evidence-hierarchy.md`, overviews |
+| `publication-citation-table` | **Optional.** Pub table + TSV, C3 vs C5, lead works | `05-scholarly`, `03-published` (skim), `evidence-hierarchy`, `prongs/02` |
 | `o1-petition-narrative` | Drafts O-1A/O-1B support letters with evidence enrichment | `criteria/`, `overview-o1a-eb1a.md` |
-| `eb1a-petition-narrative` | Drafts EB-1A green card petitions — stricter than O-1A, adds sustained acclaim + totality argument | `criteria/`, `overview-o1a-eb1a.md` |
-| `niw-national-importance-research` | Researches gov sources, national plans, federal funding for the NIW national importance argument | `prongs/01-substantial-merit.md`, `overview-niw.md` |
-| `niw-petition-narrative` | Drafts EB-2 NIW self-petition letters (Dhanasar framework) | `prongs/`, `overview-niw.md` |
-| `petition-audit` | Audits any petition letter — verifies every claim, flags errors, produces severity-rated report | All relevant knowledge files |
-| `expert-letter-drafter` | Drafts expert/reference/recommendation letters — assigns criteria to experts, ensures no overlap | `criteria/`, `prongs/`, `evidence-hierarchy.md` |
-| `rfe-response-drafter` | Analyzes USCIS RFE, diagnoses original petition weaknesses, drafts point-by-point response with new evidence | All relevant knowledge files |
+| `eb1a-petition-narrative` | Drafts EB-1A green card petitions | `criteria/`, `overview-o1a-eb1a.md` |
+| `niw-national-importance-research` | Gov sources / national plans for NIW | `prongs/01`, `overview-niw.md` |
+| `niw-petition-narrative` | EB-2 NIW self-petition (Dhanasar) | `prongs/`, `overview-niw.md` |
+| `petition-audit` | Verifies claims in a drafted letter | All relevant |
+| `expert-letter-drafter` | Expert / reference letters | `criteria/`, `prongs/`, `evidence-hierarchy` |
+| `rfe-response-drafter` | RFE response drafting | All relevant |
 
 ## Workflow
 
 ```
 Source documents → document-summary-arrangement → document index
                                                        ↓
-              knowledge/ (read first) → o1-petition-narrative            → O-1A petition package  ─┐
-                                      → eb1a-petition-narrative          → EB-1A petition package ─┤→ petition-audit → audit report
-                                      → niw-national-importance-research → research document       │
-                                        → niw-petition-narrative         → NIW petition package  ──┘
+              knowledge/ → o1- / eb1a- / niw-national + niw-petition  →  packages
+                                                                               ↓
+                                                                  petition-audit
 ```
+
+**Optional (not in default path):** `case-strength-assessor` on the index; `publication-citation-table` for research-heavy files.
 
 ## Planned Skills
 
-- **Expert Letter Drafter** — Drafts expert/advisory opinion letters for immigration petitions
-- **Case Chronology** — Builds a timeline from the document index
-- **Contract Review** — Clause-by-clause analysis with risk flags
+- **Case Chronology** — Timeline from the index
+- **Contract Review** — Clause-level risk (non-immigration)
 
 ## Key Rules
 
 - **Every claim backed by evidence** — document exhibit or verified web source, no exceptions
 - **No fabrication** — if it's not in the documents, don't invent it
-- **No client PII in knowledge/** — all case lessons must be anonymized
-- **Lawyer decides** — skills produce drafts for attorney review, not legal advice
+- **No client PII in knowledge/** — anonymize
+- **Lawyer decides** — not legal advice
 
 ## workspace/
 
-Gitignored. Client work goes here: `workspace/<matter-name>/`. Never commit client data.
+Gitignored. `workspace/<matter-name>/` — never commit client data.

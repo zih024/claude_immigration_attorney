@@ -40,6 +40,8 @@ Required inputs:
 4. **Source documents** — the actual exhibits referenced in the letter (or access to them)
 5. **Petition type** — O-1A, EB-1A, or NIW
 
+Optional: prior **case-strength-assessor** / **publication-citation-table** outputs to compare to the draft.
+
 ---
 
 ## Phase 2: Claim Extraction

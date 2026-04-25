@@ -34,6 +34,8 @@ Drafts EB-1A (extraordinary ability green card) petition support letters. Same c
 
 Single file: `eb1a_petition_package.md` — support letter, source registry, web sources, evidence gaps, and EB-1A-specific checklist.
 
+**Prerequisites:** `document-summary-arrangement` first. **Optional:** `case-strength-assessor`, `publication-citation-table`.
+
 ## Usage
 
 ```

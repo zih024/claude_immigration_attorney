@@ -49,6 +49,8 @@ Your job is to:
 | Relationship type | Employer, colleague, independent expert, industry leader, academic |
 | What they can speak to | Which aspects of the beneficiary's work they have firsthand knowledge of |
 
+**Optional:** **`case-strength-assessor`** / **`publication-citation-table`** output to see which criteria or pubs need expert support.
+
 ### Expert types (from strongest to weakest for USCIS)
 
 | Type | Strength | Example |

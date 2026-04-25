@@ -49,6 +49,10 @@ workspace/<matter-name>/
     └── document_index.md     # Master index with inline summaries
 ```
 
+**Immigration next steps (default):** from the index, go to `/o1-petition-narrative`, `/eb1a-petition-narrative`, or `/niw-national-importance-research` then `/niw-petition-narrative`.
+
+**Optional:** [`case-strength-assessor`](../case-strength-assessor/) (`/case-strength-assessor`); for many papers, [`publication-citation-table`](../publication-citation-table/) (`/publication-citation-table`).
+
 ## Key improvements from v1
 
 - **Triage phase** — scans before reading; identifies key docs vs. screenshots; plans batches

@@ -70,6 +70,8 @@ Same 5 phases as o1-petition-narrative:
 4. **Criterion Arguments** — Draft each criterion with sourced facts
 5. **Assembly** — Produce consolidated petition package
 
+**Optional:** **case-strength-assessor**; **publication-citation-table** (C5 TSV/lead list — do not cite unverified cells).
+
 ---
 
 ## Phase 1: Case Setup

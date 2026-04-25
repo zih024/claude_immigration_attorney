@@ -49,7 +49,7 @@ Every factual assertion → must have a source:
 
 ## Prerequisites
 
-Run **document-summary-arrangement** first to build the document index.
+Run **document-summary-arrangement** first. **Optional:** `/case-strength-assessor`, `/publication-citation-table` (if many publications).
 
 ## Usage
 
